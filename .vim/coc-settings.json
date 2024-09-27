@@ -1,0 +1,10 @@
+{
+	"clangd.arguments":[
+		"--compile-commands-dir=./build",
+		"--header-insertion=never"
+
+	],
+	"clangd.formatTool":"clang-format",
+	"clangd.fallbackFlags":["-std=c++17"],
+
+}

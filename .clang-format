@@ -1,0 +1,40 @@
+---
+Language: Cpp
+# 基于 Google 的样式
+BasedOnStyle: Google
+# 缩进宽度为 4 空格
+IndentWidth: 4
+# 每行最大字符数
+ColumnLimit: 100
+# 访问说明符（public、private 等）的缩进
+AccessModifierOffset: -4
+# 对齐连续的赋值
+AlignConsecutiveAssignments: true
+# 对齐连续的声明
+AlignConsecutiveDeclarations: true
+# 允许函数声明的所有参数在放在下一行
+AllowAllParametersOfDeclarationOnNextLine: true
+# 允许短的 if 语句保持在同一行
+AllowShortIfStatementsOnASingleLine: true
+# 总是在 template 声明后换行
+AlwaysBreakTemplateDeclarations: true
+# 构造函数的初始化列表要么都在同一行，要么都各自一行
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+# 构造函数的初始化列表的缩进宽度
+ConstructorInitializerIndentWidth: 4
+# 延续的行的缩进宽度
+ContinuationIndentWidth: 4
+# 大括号换行，只有当 BreakBeforeBraces 设置为 Custom 时才有效
+BraceWrapping:   
+  AfterClass:      true
+  AfterControlStatement: true
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterObjCDeclaration: true
+  AfterStruct:     true
+  AfterUnion:      true
+  BeforeCatch:     true
+  BeforeElse:      true
+  IndentBraces:    false
+---
